@@ -1,0 +1,289 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+.main {
+  height: 100%;
+  background-color: #edf0f2;
+}
+.header {
+  background-color: white;
+  max-height: fit-content;
+}
+.header .fa-copy {
+  color: #00504d;
+}
+.header .trans-header {
+  color: #00504d;
+}
+.home-span {
+  font-size: 11px;
+  font-weight: 700;
+  color: darkgrey;
+}
+.fa-history {
+  color: teal;
+}
+.fa-university {
+  color: teal;
+}
+.header .btn-1 {
+  border: 1px solid darkgrey;
+  font-size: 12px;
+  height: 40px;
+  font-weight: 700;
+  width: 170px;
+  background-color: #fff;
+}
+.header .btn-2 {
+  border: 1px solid darkgrey;
+  font-size: 12px;
+  height: 40px;
+  width: 100px;
+  font-weight: 700;
+  background-color: #fff;
+}
+.view-trans {
+  width: 300px;
+  justify-content: space-between;
+}
+
+/* content */
+.credit-card-div,
+.summary-div,
+.activity-div,
+.report-div {
+  min-height: 85vh;
+  padding-right: 1vw;
+  padding-bottom: 1vw;
+  position: relative;
+}
+.report-div {
+  padding-right: 0vw;
+}
+.card-inner-div,
+.activity-inner-div {
+  height: 100%;
+  width: 100%;
+  background: white;
+}
+.sum-inner-div {
+  height: 100%;
+  width: 100%;
+}
+.report-inner-div {
+  height: 100%;
+  width: 100%;
+}
+.card-inner-div .bank-para {
+  font-weight: 600;
+  position: absolute;
+}
+.card-inner-div img {
+  padding: 5px;
+  width: 95%;
+}
+.quick-div .summary-para {
+  font-weight: 600;
+}
+.quick-div {
+  background: white;
+  height: 60vh;
+}
+.balance-div p {
+  font-size: 8px;
+  font-weight: 600;
+}
+.balance-div {
+  width: 90%;
+  height: 90px;
+  background-color: #defaee;
+  border-radius: 5px;
+}
+.bank-div {
+  width: 90%;
+  height: 90px;
+  background-color: #e6efff;
+  border-radius: 5px;
+}
+.bank-div p {
+  font-size: 8px;
+  font-weight: 600;
+}
+.transaction-div {
+  width: 90%;
+  height: 90px;
+  background-color: pink;
+  border-radius: 5px;
+}
+.transaction-div p {
+  font-size: 8px;
+  font-weight: 600;
+}
+.summary-div .fa-wallet {
+  font-size: 40px;
+  color: teal;
+}
+.pie-div {
+  background: white;
+  
+}
+.pie-div img {
+  width: 90%;
+  padding-top: 30px;
+}
+.pie-div p {
+  font-size: 14px;
+  font-weight: 600;
+}
+.expense {
+  font-size: 14px;
+  font-weight: bold;
+  padding: 10px;
+}
+.date {
+  margin-left: auto;
+  padding: 10px;
+}
+.date p {
+  font-size: 9px;
+  color: darkgray;
+}
+.express-div {
+  width: 100%;
+  height: 59vh;
+  background: white;
+}
+.express-div img {
+  width: 90%;
+  margin-left: 20px;
+}
+.category-div {
+  background: white;
+  margin-top: 10px;
+}
+.category-div p {
+  font-size: 14px;
+  font-weight: 600;
+  padding: 10px;
+}
+.category-div img {
+  width: 70%;
+  height: 80%;
+  margin-left: 80px;
+}
+.month-div {
+  width: 95%;
+  background: skyblue;
+  height: 25px;
+}
+.month-div p {
+  font-size: 9px;
+  color: teal;
+}
+.month-div i {
+  margin-left: auto;
+  color: teal;
+}
+.data-one {
+  width: 100%;
+}
+.month {
+  font-size: 12px;
+  color: gray;
+}
+.date {
+  font-size: 22px;
+}
+.activity-div p {
+  font-weight: 600;
+}
+.heading {
+  margin-left: 10px;
+}
+.heading .c-name {
+  font-size: 12px;
+  font-weight: 600;
+}
+.heading .subscribe {
+  font-size: 9px;
+  color: darkgray;
+  font-weight: 500;
+}
+.price-list {
+  margin-left: auto;
+}
+.price-list .price {
+  font-size: 14px;
+  color: red;
+  font-weight: bold;
+}
+.price-list .time {
+  font-size: 10px;
+  color: darkgray;
+}
+.data-four .price {
+  color: green;
+}
+.data-seven .price {
+  color: green;
+}
+/* media queries */
+@media only screen and (min-width: 1024px) {
+  /* body {
+    overflow: hidden;
+  } */
+  .credit-card-div {
+    width: 20%;
+  }
+  .summary-div {
+    width: 20%;
+  }
+  .activity-div {
+    width: 30%;
+  }
+  .report-div {
+    width: 30%;
+  }
+  .fa-wallet {
+    margin-left: -20px;
+  }
+  
+  .card-inner-div,
+  .activity-inner-div {
+    height: 100vh !important;
+  }
+  .category-div {
+    height: 40vh;
+  }
+  .pie-div {
+    height: 39vh;
+  }
+}
+@media only screen and (max-width: 1023px) {
+  .credit-card-div {
+    width: 50%;
+  }
+  .summary-div {
+    width: 50%;
+  }
+  .activity-div {
+    width: 50%;
+  }
+  .report-div {
+    width: 50%;
+  }
+}
+@media only screen and (max-width: 745px) {
+  .credit-card-div {
+    width: 100%;
+  }
+  .summary-div {
+    width: 100%;
+  }
+  .activity-div {
+    width: 100%;
+  }
+  .report-div {
+    width: 100%;
+  }
+}
